@@ -1,1 +1,120 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>VIP APK HUB</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI';
+    background: linear-gradient(135deg, #020617, #0f172a);
+    color: white;
+}
 
+/* HEADER */
+header {
+    text-align: center;
+    padding: 25px;
+    font-size: 28px;
+    font-weight: bold;
+    background: linear-gradient(90deg, #6366f1, #9333ea);
+    box-shadow: 0 0 20px #000;
+}
+
+/* CONTAINER */
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* CARD */
+.card {
+    background: rgba(30,41,59,0.7);
+    backdrop-filter: blur(10px);
+    padding: 25px;
+    margin: 20px 0;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* BUTTON */
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 25px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    background: linear-gradient(90deg, #22c55e, #4ade80);
+    color: black;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: scale(1.08);
+    box-shadow: 0 0 15px #22c55e;
+}
+
+/* TITLE */
+h2 {
+    margin-bottom: 10px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #020617;
+    color: #aaa;
+}
+</style></head><body><header>💎 VIP PREMIUM APK HUB 💎</header><div class="container"><!-- APK DOWNLOAD -->
+<div class="card">
+    <h2>📥 Telegram Premium APK</h2>
+    <p>Latest VIP version download karo 👇</p>
+
+    <div class="btn" onclick="downloadAPK()">⬇ Download APK</div>
+</div>
+
+<!-- SRC FILE -->
+<div class="card">
+    <h2>📁 Source Files</h2>
+    <p>Developer ke liye full source code</p>
+
+    <a href="#" class="btn">Download SRC</a>
+</div>
+
+<!-- ABOUT -->
+<div class="card">
+    <h2>ℹ️ About Website</h2>
+    <p>
+        Ye ek VIP premium platform hai jaha tum latest APK aur tools download kar sakte ho.
+    </p>
+</div>
+
+<!-- TELEGRAM -->
+<div class="card">
+    <h2>📢 Join Telegram</h2>
+    <p>Updates ke liye join karo</p>
+
+    <a href="https://t.me/sgbosspanel" class="btn">🚀 Join Now</a>
+</div>
+
+</div><footer>
+© 2026 VIP APK HUB
+</footer><script>
+function downloadAPK() {
+    const link = document.createElement('a');
+    link.href = "https://raw.githubusercontent.com/tgxfuture/TG-VIP-PANELS-LINK/main/TG_PREMIUM_1.10.apk";
+    link.download = "TG_PREMIUM_1.10.apk";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+}
+</script></body>
+</html>
